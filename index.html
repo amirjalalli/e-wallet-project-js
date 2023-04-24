@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-wallet</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-header">
+        <img src="./logo-wallet.avif" alt="" />
+        <span>e-Wallet</span>
+      </div>
+      <div class="total-header">
+        <h2>total balance</h2>
+        <h3>price: 0</h3>
+      </div>
+      <div class="balance-header">
+        <div class="heder-incomes">
+          <p>0$</p>
+          <span>Incomes</span>
+        </div>
+        <div class="heder-expenses">
+          <p>0$</p>
+          <span>Expenes</span>
+        </div>
+      </div>
+    </div>
+    <form class="form-wallet">
+      <select name="operator" id="operator" class="select-box">
+        <option value="+">+</option>
+        <option value="-">-</option>
+      </select>
+      <input type="text" class="input-text" />
+      <input type="number" class="input-number" />
+      <button class="btn-icon"><i class="material-icons">check</i></button>
+    </form>
+    <div class="content-product">
+      <!-- <div class="choese-product">
+        <div class="product-name">
+          <h2>buy a sth</h2>
+          <span>time</span>
+        </div>
+        <div class="price">
+          <p class="">price</p>
+        </div>
+      </div> -->
+    </div>
+    <script src="./js.js"></script>
+  </body>
 </html>
